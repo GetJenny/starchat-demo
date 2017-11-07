@@ -26,7 +26,8 @@ class App extends Component {
       setTimeout(function () {
         self.setState({ showTyping: false });
         ajax
-        .post('/get_next_response')
+        .post('hackathon-to-X/get_next_response')
+        .set('apikey', 'XXXXXXXX')
         .send({conversation_id: '1234', user_input: {text: message} })
         .withCredentials()
         .set('Accept', 'application/json')

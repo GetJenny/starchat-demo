@@ -2,7 +2,7 @@
   "name": "starchat_demo",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8888",
+  "proxy": "http://hackathon-to.elegans.it:8000",
   "devDependencies": {
     "react-scripts": "0.9.3"
   },
